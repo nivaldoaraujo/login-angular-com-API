@@ -1,0 +1,24 @@
+<p>você está logado</p>
+<form>
+    <p>Noticias: <input type="text" name="noticias" [(ngModel)]="painel.noticias"> </p> 
+    <p>Produtos: <input type="text" name="produtos" [(ngModel)]="painel.produto"></p>
+    <button type="button" (click)="cadastrar()" >Cadastrar</button>
+</form>
+
+<h2>valores inseridos</h2>
+<table border="1">
+    <tr>
+        <td>id</td>
+        <td>Noticias</td>
+        <td>Ptoduto</td>
+    </tr>
+    <tr *ngFor="let valor of noticias">
+        <th>{{valor.id}}</th>
+        <th>{{valor.noticias}}</th>
+        <th>{{valor.produto}}</th>
+        <td>
+            <button (click)="atualizar(valor.id)" >Atualizar</button>
+            <button (click)="deletar(valor.id)" >Excluir</button>
+        </td>
+    </tr>
+</table>

@@ -1,0 +1,16 @@
+<H1>Veja na nossa página de Noticias abaixo:</H1>
+<hr>
+
+<table border="1">
+    <tr>
+        <td align="center" >id</td>
+        <td>Noticias</td>
+        <td>Produtos</td>
+    </tr>
+    <tr *ngFor="let valor of noticias">
+        <th>{{valor.id}}</th>
+        <th>{{valor.noticias}}</th>
+        <th>{{valor.produto}}</th>
+        
+    </tr>
+</table>

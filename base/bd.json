@@ -1,0 +1,29 @@
+{
+  "noticias": [
+    {
+      "id": 1,
+      "noticias": "Nesta quarta feira tivemos uma atualização de preços, gramdes promoções em nossa loja.",
+      "produto": "HD externo"
+    },
+    {
+      "noticias": "xb  vddgdgd",
+      "produto": "fddfdfdffd",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "noticias": "Neste Domingo dia 28 todas as lojas abertas para a promoção do s produtos:",
+      "produto": "CAM 24 plg, Teclado Gamer e Pendrive de TeraByte"
+    },
+    {
+      "noticias": "Amanhã grande promoção de Outono!!!",
+      "produto": "Monitor 32p",
+      "id": 4
+    },
+    {
+      "noticias": "Hoje haverá uma grande promoção!! SigaMe!",
+      "produto": "NotBook Lenovo",
+      "id": 5
+    }
+  ]
+}
